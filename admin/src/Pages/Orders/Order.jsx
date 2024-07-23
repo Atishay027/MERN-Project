@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { assets } from "../../assets/assets";
 
 const Order = () => {
-  const url = "http://localhost:4000";
+  const url = "http://localhost:4001";
   console.log("url:", url);
   const [orders, setOrders] = useState([]);
   
