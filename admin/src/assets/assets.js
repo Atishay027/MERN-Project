@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'http://localhost:4001'
+export const url = 'https://mern-project-backend-y6i5.onrender.com'
