@@ -11,7 +11,7 @@ import './App.css'
 
 
 const App = () => {
-  const url ="http://localhost:4001";
+  const url ="https://mern-project-backend-y6i5.onrender.com";
   return (
     <div className='heading'>
       <ToastContainer />
