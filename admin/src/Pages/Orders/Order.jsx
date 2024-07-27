@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { assets } from "../../assets/assets";
 
 const Order = () => {
-  const url = "http://localhost:4001";
+  const url = "https://mern-project-backend-y6i5.onrender.com";
   console.log("url:", url);
   const [orders, setOrders] = useState([]);
   
