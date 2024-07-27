@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 const placeOrder = async (req,res)=>{
 
-    const frontend_url = "http://localhost:5173";  //update port number according to localhost
+    const frontend_url = "https://mern-project-frontend-9gvh.onrender.com";  //update port number according to localhost
 
     try {
         const newOrder = new orderModel({
