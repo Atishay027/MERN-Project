@@ -2,11 +2,12 @@ import userModel from "./../models/UserModel.js";
 import jwt from "jsonwebtoken";
 
 import validator from "validator";
+import bcrypt from 'bcryptjs';
 
 //login user
 const loginUser = async (req, res) => {
 
-  const bcrypt = require('bcryptjs');
+ 
 
 
     const {email,password} = req.body;
